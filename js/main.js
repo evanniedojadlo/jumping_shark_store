@@ -19,7 +19,3 @@ $(document).ready(function(){
     // run the function you created to update the total
 
 })
-
-
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
