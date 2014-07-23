@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+	$.getJSON( "/items.json", function( json ) {
+		console.log(json)
+	})
+
+
   // get the items out of the json file
     // add the items from the json file to the DOM using the template in index.html
 
@@ -13,4 +18,8 @@ $(document).ready(function(){
     // when clicked, remove the item from the table in `#cart`
     // run the function you created to update the total
 
-});
+})
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
